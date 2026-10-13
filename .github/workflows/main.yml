@@ -1,0 +1,8 @@
+name: Windows RDP Tailscale
+on: workflow_dispatch
+jobs:
+build:
+runs-on: windows-latest
+steps:
+- name: Install and Connect Tailscale
+run: 
